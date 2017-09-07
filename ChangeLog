@@ -1,0 +1,60 @@
+phpIP Management - Changelog
+
++-------------------------------------------------------------------------+
+| Copyright (C) 2006 Michael Earls                                        |
+|                                                                         |
+| This program is free software; you can redistribute it and/or           |
+| modify it under the terms of the GNU General Public License             |
+| as published by the Free Software Foundation; either version 2          |
+| of the License, or (at your option) any later version.                  |
+|                                                                         |
+| This program is distributed in the hope that it will be useful,         |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of          |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           |
+| GNU General Public License for more details.                            |
++-------------------------------------------------------------------------+
+| - phpIP - http://www.phpip.net/                                         |
++-------------------------------------------------------------------------+
+
+
+Please see http://www.phpip.net/changelog.php
+
+4.3.2 Bug Fix 1590883: Resolved preference not set at login
+4.3.2 Bug Fix 1590086: Resolved deleting host address within the CIDR block
+4.3.2 Feature: Updated display using JavaScript library to create new message block for all 
+browsers to display DNS per host.
+
+4.3.1 Feature 1575683: Resolve IP to Hostname
+4.3.1 Bug Fix 1576656: Invalid path on box_CidrMenu.php
+
+4.3 Feature
+This release added support for prefixes larger then 24 bits. Updated tree menu to support sync state.
+Rewrite of cidr_add and prefix_add to help speed up the process of adding (/8-/16).  Added the ability to 
+change the display menu based on subset items.  Added more in-deep IPAM (IP address management) fields to 
+help define the host to IP address. Updated search field with new IPAM fields.
+
+4.2 Feature	 
+This release added the ability to display subnet summary stats based used/total.
+
+4.2 Feature	 
+This release added the ability to define groups and assign CIDR/Prefixes for group management.
+
+4.2 Feature 
+Rewrite of install.php for step by step process, added compatibility check, and new SQL parser for 
+database creation.
+
+4.1.2 Minor	 
+Rewrite login.php to use local account before ldap account. Added ability to search IP information.
+
+4.1.1 Bug	 
+Updated install file to not use deprecated php function 'mysql_create_db()'. - Fixed mysql errors 
+when inserting updates when mysql table not created. preference.php - updated links to point to the 
+correct URL Feature 05-20-2005 - total rewrite of phpip Major Issue 12-08-2002 - fixed javascript 
+issue with netscape/mozilla Minor Issue 10-21-2002 23:30 - fixed the missing sql file - fixed the 
+extra row in results.php - fixed the Dir when file is untared Features 10-15-2002 23:30 - logging 
+of ip address change - added search - updated mysql database
+
+4.1 Feature	 
+Phpip-4.1 has been redesigned to support pear ipv4, php-ldap, CIDR, and multiple sub prefixes. 
+Phpip-4.1 supports user set preferences, css style sheets, and local and remote user management
+
